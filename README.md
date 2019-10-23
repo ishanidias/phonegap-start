@@ -60,3 +60,8 @@ Replace `<h1>Apache Cordova</h1>` with `<h1>PhoneGap</h1>`.
 [cordova-app]: http://github.com/apache/cordova-app-hello-world
 [bithound-img]: https://www.bithound.io/github/phonegap/phonegap-start/badges/score.svg
 [bithound-url]: https://www.bithound.io/github/phonegap/phonegap-start
+int a, b, c;
+print("Enter two numbers to add\n");
+scanf("%d %d", &a, &b);
+c = a + b;
+print("Sum of the numbers = %d\n", c);
